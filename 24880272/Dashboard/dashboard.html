@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EcoWear Analytics Dashboard</title>
+
+    <!-- D3 Libraries -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+
+    <!-- Dashboard CSS -->
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<header>
+    <h1>EcoWear Business Analytics Dashboard</h1>
+    <p>Integrated Data Visualization for Business Insights</p>
+</header>
+
+<main class="dashboard-grid">
+
+    <section class="card">
+        <h2>Weather Influence on Product Demand</h2>
+        <!-- <div id="radarChart"></div> -->
+         <div class="chart-container" id="radarChart"></div>
+    </section>
+
+    <section class="card">
+        <h2>Customer Journey Flow</h2>
+        <div class="chart-container" id="sankey"></div>
+    </section>
+
+    <section class="card">
+        <h2>Sales Distribution by Customer Segment</h2>
+        <div class="chart-container" id="coxcomb"></div>
+    </section>
+
+    <section class="card wide">
+        <h2>Monthly Product Sales Performance</h2>
+        <div class="chart-container" id="barChart"></div>
+    </section>
+
+</main>
+
+<!-- Shared Tooltip -->
+<div id="tooltip"></div>
+
+<!-- Chart Scripts -->
+<script src="../1/radar.js"></script>
+<script src="../2/sankey.js"></script>
+<script src="../3/coxcomb.js"></script>
+<script src="../4/barchart.js"></script>
+
+<!-- Dashboard Controller -->
+<script src="dashboard.js"></script>
+
+</body>
+</html>

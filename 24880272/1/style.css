@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+svg {
+    background-color: #ffffff;
+}
+
+.grid-circle {
+    fill: none;
+    stroke: #ccc;
+    stroke-dasharray: 2,2;
+}
+
+.axis line {
+    stroke: #999;
+}
+
+.axis text {
+    font-size: 12px;
+    fill: #333;
+}
+
+.radar-area {
+    fill-opacity: 0.35;
+}
+
+.legend {
+    font-size: 12px;
+}
+
+.legend rect {
+    stroke-width: 1;
+    stroke: #333;
+}
+
+.tooltip {
+    position: absolute;
+    background: white;
+    padding: 6px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 12px;
+}

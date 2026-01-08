@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+svg {
+    background-color: #ffffff;
+}
+
+.node rect {
+    cursor: pointer;
+    fill: #1f77b4;
+    stroke: #000;
+    stroke-width: 1;
+}
+
+.link {
+    fill: none;
+    stroke-opacity: 0.6;
+}
+
+.link:hover {
+    stroke-opacity: 1;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: white;
+    padding: 6px 8px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+text {
+    font-size: 12px;
+    fill: #333;
+}

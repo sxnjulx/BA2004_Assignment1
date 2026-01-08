@@ -1,0 +1,4 @@
+product,tavg,tmin,tmax,prcp,snow,wspd,tsun,pres
+Product_A_Winter_Jacket,0,0,0,0.765,1,0.496,0,1
+Product_B_Rain_Boots,0.17,0.712,0.054,1,0.68,1,0.029,0
+Product_C_Sunglasses,1,1,1,0,0,0,1,0.816
